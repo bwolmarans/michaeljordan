@@ -1,4 +1,7 @@
 <?php
+// **** add HTTP Strict Transport Security header 
+// **** ( this makes sure the browser will use SSL for this page
+header("strict-transport-security: max-age=600");
 include_once "lib/db.php";
 include "lib/sql_form.php";
 
