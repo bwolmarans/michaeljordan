@@ -1,4 +1,4 @@
-<?php header("strict-transport-security: max-age=600");
+<?php header("Strict-Transport-Security: max-age=31536000; includeSubDomains");
 // **** add HTTP Strict Transport Security header 
 // **** ( this makes sure the browser will use SSL for this page
 include_once "lib/db.php";
